@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+#quote {
+    margin: 0 auto;
+    top: 93%;
+    left: 36%;
+    position: absolute;
+    font-size: 20px;
+    border: 3px solid wheat;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.641);
+}
+
+.form_wrap {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -100;
+    flex-direction: column;
+}
+
+#login-form {
+    height: 10vh;
+    font-size: 15px;
+}
+
+.textholder {
+    padding: 5px 5px;
+    border: 1px solid wheat;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.submitBtn {
+    height: 35px;
+    color: rgb(2, 2, 42);
+    background-color: bisque;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 5px;
+    width: 100px;
+    font-size: 15px;
+}
+
+#clock {
+    color: black;
+    font-size: 60px;
+    margin: 0;
+    padding: 5px 20px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.483);
+    border: 0;
+    border-radius: 10px;
+}
+
+#greeting {
+    font-size: 100px;
+    color: rgb(27, 12, 12);
+    background-color: rgba(245, 222, 179, 0.502);
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+.todo {
+    position: absolute;
+    left: 1%;
+    top: 10%;
+    background-color: rgba(255, 255, 255, 0.412);
+    margin: 10px;
+    padding: 10px;
+}
+
+#todo-form input {
+    font-size: 15px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+button {
+    margin-left: 5px;
+}
+
+li > span {
+    font-size: 20px;
+}
+
+#weather {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
